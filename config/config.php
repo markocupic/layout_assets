@@ -11,6 +11,6 @@
  */
 
 // Hooks
-$GLOBALS['TL_HOOKS']['replaceDynamicScriptTags'][] = array('MCupic\LayoutAssets', 'hookReplaceDynamicScriptTags');
+$GLOBALS['TL_HOOKS']['replaceDynamicScriptTags'][] = array('Markocupic\LayoutAssets\LayoutAssets', 'hookReplaceDynamicScriptTags');
 
 

@@ -14,7 +14,7 @@
  */
 ClassLoader::addNamespaces(array
 (
-	'MCupic',
+	'Markocupic',
 ));
 
 
@@ -24,5 +24,5 @@ ClassLoader::addNamespaces(array
 ClassLoader::addClasses(array
 (
 	// Classes
-	'MCupic\LayoutAssets' => 'system/modules/layout_assets/classes/LayoutAssets.php',
+	'Markocupic\LayoutAssets\LayoutAssets' => 'system/modules/layout_assets/classes/LayoutAssets.php',
 ));
