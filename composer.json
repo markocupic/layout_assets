@@ -1,0 +1,36 @@
+{
+  "name":"markocupic/layout_assets",
+  "description":"Contao Extension for adding additional stylesheets and js-files to the layout",
+  "keywords":[
+    "contao",
+    "extension",
+    "module",
+    "grid"
+  ],
+  "type":"contao-module",
+  "homepage":"https://github.com/markocupic",
+  "license":"LGPL-3.0+",
+  "authors":[
+    {
+      "name":"Marko Cupic",
+      "email":"m.cupic@gmx.ch",
+      "homepage":"https://github.com/markocupic"
+    }
+  ],
+  "support":{
+    "issues":"https://github.com/markocupic/layout_assets/issues",
+    "source":"https://github.com/markocupic/layout_assets"
+  },
+  "require":{
+    "php":">=5.3.2",
+    "contao/core-bundle":">=3.2 || >=4.4",
+    "contao-community-alliance/composer-plugin":"^2.4.0 || 3.*"
+  },
+  "extra":{
+    "contao":{
+      "sources":{
+        "":"system/modules/layout_assets"
+      }
+    }
+  }
+}
